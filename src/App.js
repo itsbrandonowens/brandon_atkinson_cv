@@ -19,6 +19,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path ='/' element ={<Homepage/>}/>
+        <Route path ='/brandon_atkinson_cv' element ={<Homepage/>}/> 
         <Route path ='/Personal_Profile' element ={<Personal_Profile/>}/>
         <Route path ='/Portfolio' element ={<Portfolio/>}/>
         <Route path ='/Education' element ={<Education/>}/>

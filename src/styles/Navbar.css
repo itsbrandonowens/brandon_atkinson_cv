@@ -1,32 +1,79 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(80, 80, 80);
-  
+@media only screen and (min-width:600px) {
 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(80, 80, 80);
+    position: fixed;
+    height: 2.5vw;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0.7vw 0.8vw;
+
+    text-decoration: none;
+    font-size: 0.8vw;
+
+  }
+
+  li a:hover {
+    background-color: #383838;
+  }
+
+  .navbar {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+  }
 }
 
-li {
-  float: left;
-}
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* The CSS Below is for mobile and smaller screen sizes */
+@media only screen and (max-width:600px) {
 
-li a {
-  display: block;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(80, 80, 80);
 
-li a:hover {
-  background-color: #383838;
-}
+  }
 
-.navbar {
-  width: 100%;
-  overflow: hidden;
-  position: fixed;
-  top:0;
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 2vw 3vw;
+    text-decoration: none;
+    font-size: 4vw;
+  }
+
+  li a:hover {
+    background-color: #383838;
+  }
+
+  .navbar {
+    width: 100%;
+    overflow: auto;
+    top: 0;
+  }
+
+
+
+
 }

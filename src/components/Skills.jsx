@@ -41,7 +41,7 @@ const Skills = () => {
                     </li>
                 </div>
 
-                <div className="skills_grid_item">
+                <div className="skills_grid_item2">
                     <h2>My Languages and Skills</h2>
 
                     <span className="languageNameJava">Java</span>
