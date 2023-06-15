@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/brandon_atkinson_cv/static/css/main.7a856cdf.css",
-    "main.js": "/brandon_atkinson_cv/static/js/main.e9d50396.js",
+    "main.css": "/brandon_atkinson_cv/static/css/main.b8a09273.css",
+    "main.js": "/brandon_atkinson_cv/static/js/main.711dfe4c.js",
     "static/js/787.582371fd.chunk.js": "/brandon_atkinson_cv/static/js/787.582371fd.chunk.js",
     "static/media/thesis.pdf": "/brandon_atkinson_cv/static/media/thesis.8badb7a81a75d4b65fda.pdf",
     "static/media/diss_image_1.png": "/brandon_atkinson_cv/static/media/diss_image_1.47329d1396f71091e132.png",
@@ -24,12 +24,12 @@
     "static/media/Linkedin_Logo.png": "/brandon_atkinson_cv/static/media/Linkedin_Logo.1b4071d0891e44a8d69b.png",
     "static/media/fdm_logo.gif": "/brandon_atkinson_cv/static/media/fdm_logo.f8258fb2e677c7d90cf6.gif",
     "index.html": "/brandon_atkinson_cv/index.html",
-    "main.7a856cdf.css.map": "/brandon_atkinson_cv/static/css/main.7a856cdf.css.map",
-    "main.e9d50396.js.map": "/brandon_atkinson_cv/static/js/main.e9d50396.js.map",
+    "main.b8a09273.css.map": "/brandon_atkinson_cv/static/css/main.b8a09273.css.map",
+    "main.711dfe4c.js.map": "/brandon_atkinson_cv/static/js/main.711dfe4c.js.map",
     "787.582371fd.chunk.js.map": "/brandon_atkinson_cv/static/js/787.582371fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a856cdf.css",
-    "static/js/main.e9d50396.js"
+    "static/css/main.b8a09273.css",
+    "static/js/main.711dfe4c.js"
   ]
 }
