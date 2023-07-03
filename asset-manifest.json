@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/brandon_atkinson_cv/static/css/main.b8a09273.css",
-    "main.js": "/brandon_atkinson_cv/static/js/main.711dfe4c.js",
+    "main.css": "/brandon_atkinson_cv/static/css/main.ae97e391.css",
+    "main.js": "/brandon_atkinson_cv/static/js/main.81ed320e.js",
     "static/js/787.582371fd.chunk.js": "/brandon_atkinson_cv/static/js/787.582371fd.chunk.js",
     "static/media/thesis.pdf": "/brandon_atkinson_cv/static/media/thesis.8badb7a81a75d4b65fda.pdf",
     "static/media/diss_image_1.png": "/brandon_atkinson_cv/static/media/diss_image_1.47329d1396f71091e132.png",
@@ -15,21 +15,24 @@
     "static/media/fdm_image_1.png": "/brandon_atkinson_cv/static/media/fdm_image_1.0a03dc59ef74a39b54d5.png",
     "static/media/fdm_image_4.png": "/brandon_atkinson_cv/static/media/fdm_image_4.27509e01951e5a363012.png",
     "static/media/fdm_image_3.png": "/brandon_atkinson_cv/static/media/fdm_image_3.cc756d99e3d49014fc72.png",
+    "static/media/phone.png": "/brandon_atkinson_cv/static/media/phone.07c5f07412713d113a23.png",
     "static/media/profilepicture.jpg": "/brandon_atkinson_cv/static/media/profilepicture.fe6f973ddd485bac6ab2.jpg",
     "static/media/pcbuilding.png": "/brandon_atkinson_cv/static/media/pcbuilding.7ef8a88c12580e977b89.png",
     "static/media/football.png": "/brandon_atkinson_cv/static/media/football.239b5bc4972be271d739.png",
     "static/media/one_stop_logo.png": "/brandon_atkinson_cv/static/media/one_stop_logo.3f5eb6512acab687feb2.png",
     "static/media/hm_logo.png": "/brandon_atkinson_cv/static/media/hm_logo.ada2e7e4fc8786743988.png",
+    "static/media/github_logo.png": "/brandon_atkinson_cv/static/media/github_logo.eda973645a1fd3999a5c.png",
     "static/media/tech_industry_logo.png": "/brandon_atkinson_cv/static/media/tech_industry_logo.6a6b429648c9c34fe6b3.png",
     "static/media/Linkedin_Logo.png": "/brandon_atkinson_cv/static/media/Linkedin_Logo.1b4071d0891e44a8d69b.png",
     "static/media/fdm_logo.gif": "/brandon_atkinson_cv/static/media/fdm_logo.f8258fb2e677c7d90cf6.gif",
+    "static/media/email.png": "/brandon_atkinson_cv/static/media/email.9da303c996cd28974493.png",
     "index.html": "/brandon_atkinson_cv/index.html",
-    "main.b8a09273.css.map": "/brandon_atkinson_cv/static/css/main.b8a09273.css.map",
-    "main.711dfe4c.js.map": "/brandon_atkinson_cv/static/js/main.711dfe4c.js.map",
+    "main.ae97e391.css.map": "/brandon_atkinson_cv/static/css/main.ae97e391.css.map",
+    "main.81ed320e.js.map": "/brandon_atkinson_cv/static/js/main.81ed320e.js.map",
     "787.582371fd.chunk.js.map": "/brandon_atkinson_cv/static/js/787.582371fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8a09273.css",
-    "static/js/main.711dfe4c.js"
+    "static/css/main.ae97e391.css",
+    "static/js/main.81ed320e.js"
   ]
 }
