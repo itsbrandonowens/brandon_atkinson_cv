@@ -21,7 +21,7 @@ const Hobbies_And_Interests = () => {
 
     return (
         <div className="hobbies_interests">
-            <h1 className="hobbiesPageTitle"> Hobbies and Interests </h1>
+            <h2 className="hobbiesPageTitle"> Hobbies and Interests </h2>
             <div class="hobbies_grid">
                 {hobbies.map((hobby, index) => (
                     <div key={index} className="hobby-card">

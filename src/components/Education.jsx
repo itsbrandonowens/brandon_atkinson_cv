@@ -7,7 +7,7 @@ const Education = () => {
     return (
         <div className='education'>
 
-            <h1 className="educationTitle"> Education & Achievements </h1>
+            <h2 className="educationTitle"> Education & Achievements </h2>
             <div class="grid-container">
                 <div class="grid-item">
 

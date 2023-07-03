@@ -5,46 +5,37 @@
         padding-top: 1%;
     }
 
-    .h1 {
-        text-decoration: underline;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 40px;
-        background-image: linear-gradient(to top, #000000, #dc12ee);
-        color: transparent;
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-stroke-width: 1.5px;
-        -webkit-text-stroke-color: white;
-
-    }
-
     .profile_title {
         font-size: 3vw;
-        padding-left: 34%;
-    }
-
-    .bioPhoto {
-        width: 25%;
-        border: 5px solid rgba(137, 137, 137, 0.8);
-        border-radius: 100px;
-        display: block;
-        margin-left: 40%;
+        color: white;
+        filter: drop-shadow(10px 5px 4px #595959);
     }
 
     .personal_profile_grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
-        grid-column-gap: 0px;
+        grid-column-gap: 20px;
         padding: 10px;
         width: 90%;
         margin-left: 5%;
     }
 
+    .proText {
+        color: white;
+        text-align: justify;
+        text-justify: inter-word;
+        margin-right: 10%;
+        font-size: 1.2vw;
+    }
+
     .personal_profile_grid_item {
         padding: 20px;
         font-size: 25px;
-
+        padding-left: 10%;
+        background-color: rgba(31, 31, 31, 0.9);
+        border: 5px solid rgba(193, 193, 193, 0.8);
+        border-radius: 20px;
     }
 
     .personal_profile_grid_item2 {
@@ -55,12 +46,51 @@
         border-radius: 20px;
     }
 
+    .bioPhoto {
+        width: 25%;
+        border: 5px solid rgba(137, 137, 137, 0.8);
+        border-radius: 100px;
+        display: block;
+        margin-left: 40%;
+    }
+
     .bioText {
         font-family: Arial, Helvetica, sans-serif;
-        text-align: justify;
+        text-align: center;
         text-justify: inter-word;
-        margin-left: 5%;
         font-size: 1.2vw;
+    }
+
+    .phoneImage {
+        width: 1vw;
+        margin-right: 28px;
+        margin-left:2px;
+    
+    }
+
+    .emailImage {
+        margin-right: 20px;
+        width: 1.5vw;
+    }
+
+    .linkedin_logo_profile {
+        width: 5vw;
+    }
+
+    .contactButton {
+        padding: 2%;
+        font-size: 1.5vw;
+        color: white;
+        background-color: rgb(80, 80, 80);
+        border: 1px solid rgba(137, 137, 137, 0.8);
+        border-radius: 100px;
+        text-align: center;
+
+    }
+
+    .contactButton:hover {
+        background-color: #383838;
+        cursor: pointer;
     }
 
 
@@ -69,12 +99,29 @@
         font-weight: bold;
     }
 
-    .proText {
-        color: white;
-        text-align: justify;
-        text-justify: inter-word;
-        margin-right: 10%;
-        font-size: 1.2vw;
+    .popup-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        /* Adjust the opacity as desired */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .popup-content {
+        background-color: #fff;
+    
+        padding: 50px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .selected-popup-content {
+        text-align: left;
     }
 }
 
@@ -87,20 +134,10 @@
         padding-top: 1%;
     }
 
-    .h1 {
-        text-decoration: underline;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 40px;
-        background-image: linear-gradient(to top, #000000, #dc12ee);
-        color: transparent;
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-stroke-width: 1.5px;
-        -webkit-text-stroke-color: white;
-    }
     .profile_title {
         font-size: 10vw;
-        text-align:center;
+        color: white;
+        filter: drop-shadow(10px 5px 4px #595959);
     }
 
     .bioPhoto {
@@ -113,9 +150,9 @@
 
     .personal_profile_grid {
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        grid-column-gap: 0px;
+        grid-row-gap: 10px;
         padding: 10px;
         width: 90%;
         margin-left: 2.5%;
@@ -125,6 +162,12 @@
         padding: 20px;
         font-size: 25px;
         grid-row: 2;
+        padding: 20px;
+        font-size: 25px;
+        padding-left: 10%;
+        background-color: rgba(31, 31, 31, 0.9);
+        border: 5px solid rgba(193, 193, 193, 0.8);
+        border-radius: 20px;
 
     }
 
@@ -141,7 +184,7 @@
         font-family: Arial, Helvetica, sans-serif;
         text-align: justify;
         text-justify: inter-word;
-        text-align:center;
+        text-align: center;
         font-size: 5vw;
     }
 
