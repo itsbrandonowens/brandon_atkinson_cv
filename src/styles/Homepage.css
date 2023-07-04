@@ -110,6 +110,7 @@
     align-items: center;
     flex-direction: row;
     justify-content: center;
+    padding-bottom:50%;
   }
   
   .home-text {
