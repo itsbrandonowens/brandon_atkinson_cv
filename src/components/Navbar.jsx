@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css'
@@ -14,6 +14,7 @@ const Navbar = () => {
     const toggleNavbar = () => {
         setExpanded(!expanded);
     };
+
 
 
 

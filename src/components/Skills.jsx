@@ -42,7 +42,7 @@ const Skills = () => {
                 </div>
 
                 <div className="skills_grid_item2">
-                    <h2>My Languages and Skills</h2>
+                    <h2>My Confidence in Coding Languages</h2>
 
                     <span className="languageNameJava">Java</span>
                     <span className="languagePercentJava">70%</span>
