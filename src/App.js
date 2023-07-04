@@ -1,10 +1,11 @@
 
 import './App.css';
 import Homepage from './components/Homepage';
+import React, { useState } from 'react';
 import {Route,Routes} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Portfolio from './components/Portfolio';
-import Footer from './components/Footer';
+
 import Personal_Profile from './components/Personal_Profile';
 import Education from './components/Education';
 import Experience from './components/Experience';
@@ -14,6 +15,10 @@ import Hobbies_And_Interests from './components/Hobbies_And_Interests';
 function App() {
 
   
+
+
+
+
   return (
     <div className="App">
       <Navbar/>
@@ -30,7 +35,7 @@ function App() {
       </Routes>
 
 
-      <Footer/>
+      
      
     </div>
   );

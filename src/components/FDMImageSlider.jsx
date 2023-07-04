@@ -14,7 +14,7 @@ class FDMImageSlider extends React.Component {
       fdmimage2,
       fdmimage3,
       fdmimage4,
-    
+
     ],
     currentIndex: 0
   }; // The images to scroll through
@@ -32,7 +32,7 @@ class FDMImageSlider extends React.Component {
       const { images, currentIndex } = this.state;
       const nextIndex = (currentIndex + 1) % images.length;
       this.setState({ currentIndex: nextIndex });
-    }, 6000); 
+    }, 5000);
   }; // Change the duration (in milliseconds) between slides as needed
 
   stopSlider = () => {
@@ -44,8 +44,12 @@ class FDMImageSlider extends React.Component {
     const currentImage = images[currentIndex];
 
     return (
-      <div className="image-slider">
+      <div class="portfolio_card">
         <img className="portfolio_image_diss" src={currentImage} alt={`Image ${currentIndex}`} />
+        <h2 className="portfolio_title"> FDM Group</h2>
+        <a href=""><p className="links"> Consultant Career Framework  </p></a>
+        <p className="portfolio_description"> I was Lead Developer in creating a Consultant Career Framework in Power Apps as per request from FDM Group. I first upskilled in PowerApps to ensure a great quality
+          product. This project was viewed by the CEO which helped push the app for a UK release. </p>
       </div>
     );
   }

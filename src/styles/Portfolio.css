@@ -19,23 +19,12 @@
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 10px;
     font-size: 25px;
-
-
-  }
-
-  .portfolio_grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 10px;
-    width: 50%;
+    width: 80%;
     margin: auto;
-    grid-column-gap: 20px;
-    grid-row-gap: 30px;
-
   }
 
   .portfolio_image_diss {
-    width: 50vw;
+    height: 22vw;
     margin-top: 1%;
     border: 5px solid rgba(137, 137, 137, 0.8);
     transition: all 1s ease;
@@ -44,15 +33,18 @@
   .portfolio_title {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 2vw;
+    padding: 10px;
+    margin-bottom: 1px;
+    filter: drop-shadow(0px 0px 5px #a8a8a8);
   }
 
   a {
-
     text-decoration: none;
   }
 
   a .links {
-    background-color: rgb(113, 172, 208, 0.5);
+    background-color: rgba(176, 176, 176, 0.5);
     color: black;
     width: 70%;
     text-decoration: none;
@@ -62,19 +54,45 @@
   }
 
   a .links:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   }
 
   .portfolio_description {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 15px;
     text-align: left;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 1%;
+    width:80%;
+    margin:auto;
     text-align: justify;
     text-justify: inter-word;
+    padding:1%;
 
+  }
+
+
+  .previousButton {
+    color: white;
+    font-size: 1.5vw;
+    cursor: pointer;
+    z-index: 2;
+    margin-left: 1%;
+    font-size: 1vw;
+    background-color: rgb(80, 80, 80);
+    padding: 15px;
+    border-radius: 10%;
+    transition: all 0.8s ease;
+  }
+
+  .nextButton {
+    color: white;
+    font-size: 1.5vw;
+    cursor: pointer;
+    z-index: 2;
+    margin-left: 1%;
+    font-size: 1vw;
+    background-color: rgb(80, 80, 80);
+    padding: 15px;
+    border-radius: 10%;
+    transition: all 0.8s ease;
   }
 
 }
@@ -102,6 +120,8 @@
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 10px;
     font-size: 25px;
+    width: 95%;
+    margin: auto;
   }
 
   .portfolio_grid {
@@ -115,7 +135,7 @@
   }
 
   .portfolio_image_diss {
-    width: 85vw;
+    height: 42vw;
     margin-top: 1%;
     border: 5px solid rgba(137, 137, 137, 0.8);
   }
@@ -154,6 +174,30 @@
     text-align: justify;
     text-justify: inter-word;
 
+  }
+
+  .previousButton {
+    color: white;
+    font-size: 6vw;
+    cursor: pointer;
+    z-index: 2;
+    margin-left: 1%;
+    background-color: rgb(80, 80, 80);
+    padding: 15px;
+    border-radius: 10%;
+    transition: all 0.8s ease;
+  }
+
+  .nextButton {
+    color: white;
+    font-size: 6vw;
+    cursor: pointer;
+    z-index: 2;
+    margin-left: 1%;
+    background-color: rgb(80, 80, 80);
+    padding: 15px;
+    border-radius: 10%;
+    transition: all 0.8s ease;
   }
 
 }

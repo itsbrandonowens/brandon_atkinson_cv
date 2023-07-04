@@ -10,13 +10,32 @@
         bottom: 0;
         overflow: hidden;
         display: block;
+        transition: transform 0.8s ease; /* Apply transition only to the transform property */
+        transform: translateX(-110%);
+    }
 
-
+    .footer-expanded {
+        background-color: rgb(80, 80, 80);
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        overflow: hidden;
+        display: block;
+        transition: transform 0.8s ease; /* Apply transition only to the transform property */
+        
     }
 
     .linkedin_logo {
         width: 5%;
-        margin-left: 1%;
+    }
+
+    .github_logo {
+        width: 7%;
+        margin-left: 2%;
+        
     }
 
 }
@@ -37,7 +56,12 @@
 
     .linkedin_logo {
         width: 20%;
-        margin-left: 1%;
+    }
+
+    .github_logo {
+        width: 25%;
+        margin-left: 2%;
+        
     }
 
 
