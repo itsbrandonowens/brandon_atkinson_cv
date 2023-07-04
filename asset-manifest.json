@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/brandon_atkinson_cv/static/css/main.257839ff.css",
-    "main.js": "/brandon_atkinson_cv/static/js/main.68c816bc.js",
+    "main.css": "/brandon_atkinson_cv/static/css/main.c442965d.css",
+    "main.js": "/brandon_atkinson_cv/static/js/main.44ba7f69.js",
     "static/js/787.582371fd.chunk.js": "/brandon_atkinson_cv/static/js/787.582371fd.chunk.js",
     "static/media/thesis.pdf": "/brandon_atkinson_cv/static/media/thesis.8badb7a81a75d4b65fda.pdf",
     "static/media/diss_image_1.png": "/brandon_atkinson_cv/static/media/diss_image_1.47329d1396f71091e132.png",
@@ -22,17 +22,19 @@
     "static/media/one_stop_logo.png": "/brandon_atkinson_cv/static/media/one_stop_logo.3f5eb6512acab687feb2.png",
     "static/media/hm_logo.png": "/brandon_atkinson_cv/static/media/hm_logo.ada2e7e4fc8786743988.png",
     "static/media/github_logo.png": "/brandon_atkinson_cv/static/media/github_logo.eda973645a1fd3999a5c.png",
+    "static/media/coding.jpg": "/brandon_atkinson_cv/static/media/coding.ef0c5717d4611cdcc7da.jpg",
     "static/media/tech_industry_logo.png": "/brandon_atkinson_cv/static/media/tech_industry_logo.6a6b429648c9c34fe6b3.png",
+    "static/media/travel.jpg": "/brandon_atkinson_cv/static/media/travel.2ec3a3f5e26cb2d71ef4.jpg",
     "static/media/Linkedin_Logo.png": "/brandon_atkinson_cv/static/media/Linkedin_Logo.1b4071d0891e44a8d69b.png",
     "static/media/fdm_logo.gif": "/brandon_atkinson_cv/static/media/fdm_logo.f8258fb2e677c7d90cf6.gif",
     "static/media/email.png": "/brandon_atkinson_cv/static/media/email.9da303c996cd28974493.png",
     "index.html": "/brandon_atkinson_cv/index.html",
-    "main.257839ff.css.map": "/brandon_atkinson_cv/static/css/main.257839ff.css.map",
-    "main.68c816bc.js.map": "/brandon_atkinson_cv/static/js/main.68c816bc.js.map",
+    "main.c442965d.css.map": "/brandon_atkinson_cv/static/css/main.c442965d.css.map",
+    "main.44ba7f69.js.map": "/brandon_atkinson_cv/static/js/main.44ba7f69.js.map",
     "787.582371fd.chunk.js.map": "/brandon_atkinson_cv/static/js/787.582371fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.257839ff.css",
-    "static/js/main.68c816bc.js"
+    "static/css/main.c442965d.css",
+    "static/js/main.44ba7f69.js"
   ]
 }
