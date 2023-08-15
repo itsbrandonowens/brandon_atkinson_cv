@@ -42,7 +42,7 @@ const Skills = () => {
                 </div>
 
                 <div className="skills_grid_item2">
-                    <h2>My Confidence in Coding Languages</h2>
+                    <h2>Confidence in Languages and Frameworks</h2>
 
                     <span className="languageNameJava">Java</span>
                     <span className="languagePercentJava">70%</span>
@@ -69,9 +69,9 @@ const Skills = () => {
                     </div>
 
                     <span className="languageNameJS">JavaScript</span>
-                    <span className="languagePercentJS">60%</span>
+                    <span className="languagePercentJS">70%</span>
                     <div class="slidecontainer">
-                        <input type="range" min="1" max="100" value="60" class="slider" id="myRange"></input>
+                        <input type="range" min="1" max="100" value="70" class="slider" id="myRange" ></input>
                     </div>
 
                     <span className="languageNameUnreal">Unreal Engine 4</span>

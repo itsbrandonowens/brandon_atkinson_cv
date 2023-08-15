@@ -4,8 +4,8 @@
     font-size: 2vw;
     padding: 10px;
     margin-bottom: 1px;
-    color: white;
-    filter: drop-shadow(0px 0px 5px #595959);
+    color: rgb(0, 0, 0);
+    filter: drop-shadow(0px 0px 5px #bbbbbb);
   }
 
   .occupation_details {
@@ -27,19 +27,36 @@
 
   .fdm_logo {
     width: 30%;
-    margin-left: 35%;
+    margin-left: 30%;
+    border-radius: 20px;
+    border: 5px solid rgba(193, 193, 193, 0.8);
+    filter: drop-shadow(0px 0px 1px #595959);
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:10px;
+    margin-bottom:1vw;
 
   }
 
   .one_stop_logo {
     width: 30%;
-    margin-left: 35%;
+    margin-left: 30%;
+    border-radius: 20px;
+    border: 5px solid rgba(193, 193, 193, 0.8);
+    filter: drop-shadow(0px 0px 1px #595959);
+    padding:20px;
+    margin-bottom:1vw;
 
   }
 
   .hm_logo {
     width: 30%;
-    margin-left: 35%;
+    margin-left: 30%;
+    border-radius: 20px;
+    border: 5px solid rgba(193, 193, 193, 0.8);
+    filter: drop-shadow(0px 0px 1px #595959);
+    padding:20px;
+    margin-bottom:1vw;
 
   }
 
@@ -50,20 +67,22 @@
     width: 90%;
     margin-left: 5%;
     grid-column-gap: 20px;
+    
   }
 
   .miniGrid {
     display: grid;
     padding: 20px;
+    
 
   }
 
   .experience_grid_item {
     background-color: rgba(255, 255, 255, 0.85);
-    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 10px;
     font-size: 25px;
     text-align: center;
+    border-radius: 20px;
   }
 
   .experiences {

@@ -5,11 +5,11 @@ import React, { useState } from 'react';
 
 const Portfolio = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
-    
+
     const data = [
 
-        <DissImageSlider/> ,
-        <FDMImageSlider/>
+        <DissImageSlider />,
+        <FDMImageSlider />
     ]
 
     const handlePrevClick = () => {
@@ -30,9 +30,12 @@ const Portfolio = () => {
     return (
         <div className="portfolioPage">
             <h2 className="portfolioPageTitle"> Portfolio </h2>
-            <p>{data[currentIndex]}</p>
-            <button className="previousButton" type="button" onClick={handlePrevClick}> &lt; </button>
-            <button className="nextButton" type="button" onClick={handleNextClick}> &gt; </button>
+            <div className="portfolio_grid">
+                <button className="previousButton" type="button" onClick={handlePrevClick}> &lt; </button>
+                <p>{data[currentIndex]}</p>
+                <button className="nextButton" type="button" onClick={handleNextClick}> &gt; </button>
+            </div>
+
         </div>
 
     )

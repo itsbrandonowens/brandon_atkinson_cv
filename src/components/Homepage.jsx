@@ -6,6 +6,7 @@ const Home = () => {
   return (
     // Welcome to my Online CV! 
     // I hope this code impresses you enough to consider me for your position!
+
     <div className="home-container">
       <span className="home-text Heading">Hello, I am Brandon Atkinson</span>
       <span className="home-text1 Heading">Welcome to my CV!</span>
@@ -13,6 +14,10 @@ const Home = () => {
       <span className="home-text3 Heading">An Aspiring</span>
       <img src={grad_photo} className="grad_photo" alt="Graduation Photo"></img>
     </div>
+
+
+
+
 
   )
 }

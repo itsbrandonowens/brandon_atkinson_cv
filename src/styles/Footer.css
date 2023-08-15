@@ -10,6 +10,7 @@
         overflow: hidden;
         transition: transform 0.8s ease; /* Apply transition only to the transform property */
         transform: translateX(-110%);
+        z-index:1000;
     }
 
     .footer-expanded {

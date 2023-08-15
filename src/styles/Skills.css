@@ -13,8 +13,6 @@
     padding-top: 1%;
   }
 
-
-
   .skills_text {
     font-size: 1vw;
     font-family: Arial, Helvetica, sans-serif;
@@ -126,13 +124,13 @@
   .languageNameJS {
     font-size: 1vw;
     text-align: left;
-    margin-right: 41.5%;
+    margin-right: 50%;
     margin-left: 5%;
   }
 
   .languagePercentJS {
     font-size: 1vw;
-    margin-right: 90%;
+    margin-right: 80%;
   }
 
   .languageNameUnreal {

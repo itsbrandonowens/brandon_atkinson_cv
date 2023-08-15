@@ -29,6 +29,7 @@
         font-size: 1.2vw;
     }
 
+
     .personal_profile_grid_item {
         padding: 20px;
         font-size: 25px;
@@ -84,8 +85,15 @@
         background-color: rgb(80, 80, 80);
         border: 1px solid rgba(137, 137, 137, 0.8);
         border-radius: 100px;
-        text-align: center;
+        margin:1%;
+        
+    }
+    .contactMeImage {
+        width: 0.9vw;
+    }
+    .downloadImage {
 
+        width:1.2vw;
     }
 
     .contactButton:hover {
@@ -226,6 +234,13 @@
         border-radius: 100px;
         text-align: center;
 
+    }
+    .contactMeImage {
+        width: 4vw;
+    }
+    .downloadImage {
+
+        width:5.5vw;
     }
 
     .contactButton:hover {

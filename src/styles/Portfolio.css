@@ -2,7 +2,6 @@
 
 
   .portfolioPageTitle {
-
     font-size: 3vw;
     color: white;
     filter: drop-shadow(10px 5px 4px #595959);
@@ -12,6 +11,16 @@
     padding-bottom: 20%;
     padding-top: 1%;
     overflow: hidden;
+  }  
+
+  .portfolio_grid {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    padding: 10px;
+    width: 95%;
+    grid-column-gap: 20px;
+    overflow: hidden;
+    margin-left:2.5%;
   }
 
   .portfolio_card {
@@ -19,7 +28,7 @@
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 10px;
     font-size: 25px;
-    width: 80%;
+   
     margin: auto;
   }
 
@@ -68,18 +77,18 @@
 
   }
 
-
   .previousButton {
     color: white;
     font-size: 1.5vw;
     cursor: pointer;
     z-index: 2;
-    margin-left: 1%;
-    font-size: 1vw;
+    font-size: 2vw;
     background-color: rgb(80, 80, 80);
     padding: 15px;
     border-radius: 10%;
     transition: all 0.8s ease;
+    height:8vw;
+    margin-top:200%;
   }
 
   .nextButton {
@@ -87,12 +96,13 @@
     font-size: 1.5vw;
     cursor: pointer;
     z-index: 2;
-    margin-left: 1%;
-    font-size: 1vw;
+    font-size: 2vw;
     background-color: rgb(80, 80, 80);
     padding: 15px;
     border-radius: 10%;
     transition: all 0.8s ease;
+    height:8vw;
+    margin-top:200%;
   }
 
 }
