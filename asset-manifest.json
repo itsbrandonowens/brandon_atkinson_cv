@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/brandon_atkinson_cv/static/css/main.c442965d.css",
-    "main.js": "/brandon_atkinson_cv/static/js/main.44ba7f69.js",
-    "static/js/787.582371fd.chunk.js": "/brandon_atkinson_cv/static/js/787.582371fd.chunk.js",
+    "main.css": "/brandon_atkinson_cv/static/css/main.064bdeee.css",
+    "main.js": "/brandon_atkinson_cv/static/js/main.a52203c9.js",
+    "static/js/787.c964aedf.chunk.js": "/brandon_atkinson_cv/static/js/787.c964aedf.chunk.js",
     "static/media/thesis.pdf": "/brandon_atkinson_cv/static/media/thesis.8badb7a81a75d4b65fda.pdf",
     "static/media/diss_image_1.png": "/brandon_atkinson_cv/static/media/diss_image_1.47329d1396f71091e132.png",
     "static/media/diss_image_2.png": "/brandon_atkinson_cv/static/media/diss_image_2.f9d7178a6d706dc26471.png",
     "static/media/diss_image_4.png": "/brandon_atkinson_cv/static/media/diss_image_4.c0b9c9fc9aa30c9c4fb1.png",
     "static/media/diss_image_3.png": "/brandon_atkinson_cv/static/media/diss_image_3.11983d6eee1a4e0a07f4.png",
     "static/media/churchill_logo.png": "/brandon_atkinson_cv/static/media/churchill_logo.e7f955c2ac9d5516b96b.png",
+    "static/media/CVPDF.pdf": "/brandon_atkinson_cv/static/media/CVPDF.46400ed8817689c70804.pdf",
     "static/media/fdm_image_2.png": "/brandon_atkinson_cv/static/media/fdm_image_2.6d542b76a057117c7e4a.png",
     "static/media/gradimage1.jpg": "/brandon_atkinson_cv/static/media/gradimage1.16019cc5b90a4acae43f.jpg",
     "static/media/Northumbria_University_Logo.png": "/brandon_atkinson_cv/static/media/Northumbria_University_Logo.b3c5a9c12a7c54710583.png",
@@ -24,17 +25,18 @@
     "static/media/github_logo.png": "/brandon_atkinson_cv/static/media/github_logo.eda973645a1fd3999a5c.png",
     "static/media/coding.jpg": "/brandon_atkinson_cv/static/media/coding.ef0c5717d4611cdcc7da.jpg",
     "static/media/tech_industry_logo.png": "/brandon_atkinson_cv/static/media/tech_industry_logo.6a6b429648c9c34fe6b3.png",
+    "static/media/download.png": "/brandon_atkinson_cv/static/media/download.4e549530f9d64b0e788d.png",
     "static/media/travel.jpg": "/brandon_atkinson_cv/static/media/travel.2ec3a3f5e26cb2d71ef4.jpg",
     "static/media/Linkedin_Logo.png": "/brandon_atkinson_cv/static/media/Linkedin_Logo.1b4071d0891e44a8d69b.png",
     "static/media/fdm_logo.gif": "/brandon_atkinson_cv/static/media/fdm_logo.f8258fb2e677c7d90cf6.gif",
     "static/media/email.png": "/brandon_atkinson_cv/static/media/email.9da303c996cd28974493.png",
     "index.html": "/brandon_atkinson_cv/index.html",
-    "main.c442965d.css.map": "/brandon_atkinson_cv/static/css/main.c442965d.css.map",
-    "main.44ba7f69.js.map": "/brandon_atkinson_cv/static/js/main.44ba7f69.js.map",
-    "787.582371fd.chunk.js.map": "/brandon_atkinson_cv/static/js/787.582371fd.chunk.js.map"
+    "main.064bdeee.css.map": "/brandon_atkinson_cv/static/css/main.064bdeee.css.map",
+    "main.a52203c9.js.map": "/brandon_atkinson_cv/static/js/main.a52203c9.js.map",
+    "787.c964aedf.chunk.js.map": "/brandon_atkinson_cv/static/js/787.c964aedf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c442965d.css",
-    "static/js/main.44ba7f69.js"
+    "static/css/main.064bdeee.css",
+    "static/js/main.a52203c9.js"
   ]
 }
