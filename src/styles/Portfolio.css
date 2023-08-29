@@ -105,6 +105,21 @@
     margin-top:200%;
   }
 
+  a .github_desc {
+    background-color: rgba(176, 176, 176, 0.5);
+    color: white;
+    width: 40%;
+    text-decoration: none;
+    margin-left: 30%;
+    border-radius: 10px;
+    font-size:1vw;
+
+  }
+
+  a .github_desc:hover{
+    box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
