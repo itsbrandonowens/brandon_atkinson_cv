@@ -104,12 +104,6 @@
         margin-right: 1%;
     }
 
-    .bioText {
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-        text-justify: inter-word;
-        font-size: 1.2vw;
-    }
 
     .contactButton {
         padding: 2%;
@@ -123,10 +117,7 @@
         cursor: pointer;
     }
 
-    .bioTextName {
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-    }
+
 
     .popup_content {
         position: absolute;
@@ -143,7 +134,7 @@
         transition: transform 0.8s ease;
         /* Apply transition only to the transform property */
         transform: translateY(-200%);
-        
+
         overflow: hidden;
 
     }
@@ -172,10 +163,9 @@
 
     }
 
-    .about_me_header{
-        color:rgb(255, 255, 255);
- 
-        font-size:1.5vw;
+    .about_me_header {
+        color: rgb(255, 255, 255);
+        font-size: 1.5vw;
     }
 }
 
@@ -194,140 +184,164 @@
         filter: drop-shadow(10px 5px 4px #595959);
     }
 
-    .bioPhoto {
-        width: 25%;
-        border: 5px solid rgba(137, 137, 137, 0.8);
-        border-radius: 100px;
-        display: block;
-        margin-left: 40%;
-    }
-
     .personal_profile_grid {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        grid-row-gap: 10px;
+        grid-column-gap: 20px;
         padding: 10px;
         width: 90%;
-        margin-left: 2.5%;
-    }
+        margin-left: 5%;
 
-    .personal_profile_grid_item {
-        padding: 20px;
-        font-size: 25px;
-        grid-row: 2;
-        padding: 20px;
-        font-size: 25px;
-        padding-left: 10%;
-        background-color: rgba(31, 31, 31, 0.9);
-        border: 5px solid rgba(193, 193, 193, 0.8);
-        border-radius: 20px;
-
-    }
-
-    .personal_profile_grid_item2 {
-        grid-row: 1;
-    }
-
-    .personal_profile_bio {
-        padding: 20px;
-        font-size: 8vw;
-        background-color: rgba(255, 255, 255, 0.9);
-        border: 5px solid rgba(137, 137, 137, 0.8);
-        border-radius: 20px;
-    }
-
-    .bioText {
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: justify;
-        text-justify: inter-word;
-        text-align: center;
-        font-size: 5vw;
-    }
-
-
-    .bioTextName {
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
     }
 
     .proText {
-        color: white;
-        text-align: justify;
-        text-justify: inter-word;
-        font-size: 4vw;
-    }
-
-    .phoneImage {
-        width: 6vw;
-        margin-right: 200px;
-        margin-left: 2px;
+        color: rgb(0, 0, 0);
+        font-family: Verdana, sans-serif;
+        padding: 1%;
+        font-size: 3.5vw;
 
     }
 
-    .emailImage {
-        margin-right: 20px;
-        width: 10vw;
+    .about_me_text {
+        color: rgb(255, 255, 255);
+        font-family: Verdana, sans-serif;
+        padding: 1%;
+        font-size: 3.5vw;
     }
 
-    .linkedin_logo_profile {
-        width: 25vw;
+
+    .personal_profile_grid_item {
+        
     }
 
-    .contactButton {
-        padding: 2%;
+    .personal_profile_grid_item2 {
+      
+    }
+
+    .about_me_container {
+        margin-top: 1%;
+        padding: 20px;
         font-size: 5vw;
-        color: white;
-        background-color: rgb(80, 80, 80);
-        border: 1px solid rgba(137, 137, 137, 0.8);
-        border-radius: 100px;
-        text-align: center;
-
-    }
-
-    .contactMeImage {
-        width: 4vw;
-    }
-
-    .downloadImage {
-
-        width: 5.5vw;
-    }
-
-    .contactButton:hover {
-        background-color: #383838;
-        cursor: pointer;
-    }
-
-
-    .popup-overlay {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.6);
-        /* Adjust the opacity as desired */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .popup-content {
-        background-color: #fff;
-
-        padding: 50px;
-        border-radius: 5px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    }
-
-    .selected-popup-content {
+        background-color: rgba(71, 71, 71, 0.9);
+        border: 2px solid rgba(193, 193, 193, 0.8);
+        border-radius: 20px;
         text-align: left;
     }
 
+    .socialImage {
+        width: 50%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .socials_container {
+        background-color: rgba(255, 255, 255, 1);
+        border: 2px solid rgba(137, 137, 137, 0.8);
+        border-radius: 20px;
+        display: flex;
+    }
+
+    .personal_profile_bio {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        font-size: 5vw;
+        background-color: rgba(255, 255, 255, 1);
+        border: 2px solid rgba(137, 137, 137, 0.8);
+        border-radius: 20px;
+        text-align: left;
+        margin-top: 1%;
+    }
+
+    .tooltip {
+        padding: 2%;
+        position: relative;
+        display: inline-block;
+    }
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        position: absolute;
+        text-align: center;
+        background-color: rgba(71, 71, 71, 1);
+        border: 1px solid rgba(193, 193, 193, 1);
+        color: white;
+        border-radius: 10px;
+        padding: 20%;
+
+    }
+
+   
+
+    .bioPhoto {
+        width: 25%;
+        border: 2px solid rgba(137, 137, 137, 0.8);
+        border-radius: 10px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
 
 
+    .contactButton {
+        padding: 2%;
+        font-size: 1.5vw;
+        margin: 1%;
+        border: none;
+        background: none;
+    }
 
+    .contactButton:hover {
+        cursor: pointer;
+    }
+
+    .popup_content {
+        position: absolute;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgba(193, 193, 193, 1);
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        top: 8%;
+        right: 4.5%;
+        width: 20%;
+        height: 8%;
+        padding: 1%;
+        transition: transform 0.8s ease;
+        /* Apply transition only to the transform property */
+        transform: translateY(-200%);
+
+        overflow: hidden;
+
+    }
+
+    .popup_content_expanded {
+        position: absolute;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgba(193, 193, 193, 1);
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        top: 8%;
+        right: 4.5%;
+        width: 20%;
+        height: 8%;
+        padding: 1%;
+        transform: translateX(1%);
+        transition: transform 0.8s ease;
+    }
+
+    .selected-popup-content {
+        font-size: 1.2vw;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-top: 1%;
+
+    }
+
+    .about_me_header {
+        color: rgb(255, 255, 255);
+        font-size: 4vw;
+    }
 
 
 }

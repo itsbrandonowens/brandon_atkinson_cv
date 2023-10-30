@@ -52,7 +52,7 @@ class DissImageSlider extends React.Component {
           I had no prior experience in Unreal Engine 4 before this project. I picked it up from scratch and taught myself all I could to ensure I completed it with the best 
           quality possible, achieving a First.  </p>
       </div>
-    );
+    ); 
   }
 }
 

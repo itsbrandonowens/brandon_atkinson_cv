@@ -39,7 +39,7 @@ const Portfolio = () => {
                 <button className="nextButton" type="button" onClick={handleNextClick}> &gt; </button>
             </div>
 
-        </div>
+        </div> 
 
     )
 
