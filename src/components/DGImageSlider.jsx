@@ -48,14 +48,20 @@ class DGImageSlider extends React.Component {
 
     return (
       <div class="portfolio_card">
-        <img className="portfolio_image_diss" src={currentImage} alt={`Image ${currentIndex}`} />
-        <h2 className="portfolio_title"> ReactJS Drinking Game</h2>
-        <a href= "https://itsbrandonowens.github.io/brandons_drinking_game/"><p className="links"> Brandon's Drinking Game </p></a>
-        <p className="portfolio_description"> 
-        I was getting bored of generic drinking games that me and my friends would play so I decided to create my own. This was created in ReactJS. There are different coloured cards which do different 
-        things. Different coloured cards do different things, therefore some cards appear rarer than others. There are cards that include a video prompt, cards that allow you to spin a wheel which
-        includes a forfeit, regular cards and cards that allow you to play higher or lower. This game has been well recieved by my friends and shows that I have a passion in creating solutions via coding
-        to any problem that is thrown my way. </p>
+        <div class="grid-container2">
+          <div class="grid-item2">
+            <img className="portfolio_image_diss" src={currentImage} alt={`Image ${currentIndex}`} />
+          </div>
+          <div class="grid-item2">
+            <h2 className="portfolio_title"> ReactJS Drinking Game</h2>
+            <a href="https://itsbrandonowens.github.io/brandons_drinking_game/" target="_blank" ><p className="links"> Brandon's Drinking Game </p></a>
+            <p className="portfolio_description">
+              I was getting bored of generic drinking games that me and my friends would play so I decided to create my own. This was created in ReactJS. There are different coloured cards which do different
+              things. Different coloured cards do different things, therefore some cards appear rarer than others. There are cards that include a video prompt, cards that allow you to spin a wheel which
+              includes a forfeit, regular cards and cards that allow you to play higher or lower. This game has been well recieved by my friends and shows that I have a passion in creating solutions via coding
+              to any problem that is thrown my way. </p>
+          </div>
+        </div>
       </div>
     );
   }

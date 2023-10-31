@@ -45,11 +45,17 @@ class FDMImageSlider extends React.Component {
 
     return (
       <div class="portfolio_card">
-        <img className="portfolio_image_diss" src={currentImage} alt={`Image ${currentIndex}`} />
-        <h2 className="portfolio_title"> FDM Group</h2>
-        <a href=""><p className="links"> Consultant Career Framework  </p></a>
-        <p className="portfolio_description"> I was Lead Developer in creating a Consultant Career Framework in Power Apps as per request from FDM Group. I first upskilled in PowerApps to ensure a great quality
-          product. This project was viewed by the CEO which helped push the app for a UK release. </p>
+        <div class="grid-container2">
+          <div class="grid-item2">
+            <img className="portfolio_image_diss" src={currentImage} alt={`Image ${currentIndex}`} />
+          </div>
+          <div class="grid-item2">
+            <h2 className="portfolio_title"> FDM Group</h2>
+            <a href="" target="_blank"><p className="links" > Consultant Career Framework  </p></a>
+            <p className="portfolio_description"> I was Lead Developer in creating a Consultant Career Framework in Power Apps as per request from FDM Group. I first upskilled in PowerApps to ensure a great quality
+              product. This project was viewed by the CEO which helped push the app for a UK release. </p>
+          </div>
+        </div>
       </div>
     );
   }

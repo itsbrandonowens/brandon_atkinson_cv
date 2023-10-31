@@ -43,16 +43,22 @@ class DissImageSlider extends React.Component {
 
     return (
       <div class="portfolio_card">
-        <img className="portfolio_image_diss" src={currentImage} alt={`Image ${currentIndex}`} />
-        <h2 className="portfolio_title"> Dissertation</h2>
-        <a href={dissPDF}><p className="links"> Evaluating the effects of crowd support in Virtual Reality </p></a>
-        <p className="portfolio_description"> 
-        I created a VR Basketball game in Unreal Engine 4 to test if the noise of a virtual crowd would affect a players performance such as it does in real life sports.
-          I concluded that positive crowd noise positively affected the performance of the player while negative and silent crowds gave debatably inconclusive results.
-          I had no prior experience in Unreal Engine 4 before this project. I picked it up from scratch and taught myself all I could to ensure I completed it with the best 
-          quality possible, achieving a First.  </p>
+        <div class="grid-container2">
+          <div class="grid-item2">
+            <img className="portfolio_image_diss" src={currentImage} alt={`Image ${currentIndex}`} />
+          </div>
+          <div class="grid-item2">
+            <h2 className="portfolio_title"> Dissertation</h2>
+            <a href={dissPDF} target="_blank"><p className="links" > Evaluating the effects of crowd support in Virtual Reality </p></a>
+            <p className="portfolio_description">
+              I created a VR Basketball game in Unreal Engine 4 to test if the noise of a virtual crowd would affect a players performance such as it does in real life sports.
+              I concluded that positive crowd noise positively affected the performance of the player while negative and silent crowds gave debatably inconclusive results.
+              I had no prior experience in Unreal Engine 4 before this project. I picked it up from scratch and taught myself all I could to ensure I completed it with the best
+              quality possible, achieving a First.  </p>
+          </div>
+        </div>
       </div>
-    ); 
+    );
   }
 }
 
