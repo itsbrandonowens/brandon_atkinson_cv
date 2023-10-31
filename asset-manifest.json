@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/brandon_atkinson_cv/static/css/main.d387a738.css",
-    "main.js": "/brandon_atkinson_cv/static/js/main.ec5a0ce1.js",
+    "main.css": "/brandon_atkinson_cv/static/css/main.b661e765.css",
+    "main.js": "/brandon_atkinson_cv/static/js/main.690244c8.js",
     "static/js/787.582371fd.chunk.js": "/brandon_atkinson_cv/static/js/787.582371fd.chunk.js",
     "static/media/thesis.pdf": "/brandon_atkinson_cv/static/media/thesis.8badb7a81a75d4b65fda.pdf",
     "static/media/diss_image_1.png": "/brandon_atkinson_cv/static/media/diss_image_1.47329d1396f71091e132.png",
@@ -16,10 +16,12 @@
     "static/media/dg_image_4.png": "/brandon_atkinson_cv/static/media/dg_image_4.3bd368c7fb0b2529a82e.png",
     "static/media/dg_image_2.png": "/brandon_atkinson_cv/static/media/dg_image_2.1d80ebd1e96777bb6c7d.png",
     "static/media/CVPDF.pdf": "/brandon_atkinson_cv/static/media/CVPDF.46400ed8817689c70804.pdf",
+    "static/media/softwaredevcertificate.pdf": "/brandon_atkinson_cv/static/media/softwaredevcertificate.2a9294b1458c3fea06db.pdf",
     "static/media/fdm_image_2.png": "/brandon_atkinson_cv/static/media/fdm_image_2.6d542b76a057117c7e4a.png",
     "static/media/profilepicture3.jpg": "/brandon_atkinson_cv/static/media/profilepicture3.870d601e5415a2ce4831.jpg",
     "static/media/profilepicture2.jpg": "/brandon_atkinson_cv/static/media/profilepicture2.75322e2ea46b2019fdb6.jpg",
     "static/media/gradimage1.jpg": "/brandon_atkinson_cv/static/media/gradimage1.16019cc5b90a4acae43f.jpg",
+    "static/media/degree.jpg": "/brandon_atkinson_cv/static/media/degree.3e02cfaf1f730e238908.jpg",
     "static/media/Northumbria_University_Logo.png": "/brandon_atkinson_cv/static/media/Northumbria_University_Logo.b3c5a9c12a7c54710583.png",
     "static/media/fdm_image_1.png": "/brandon_atkinson_cv/static/media/fdm_image_1.0a03dc59ef74a39b54d5.png",
     "static/media/fdm_image_4.png": "/brandon_atkinson_cv/static/media/fdm_image_4.27509e01951e5a363012.png",
@@ -41,12 +43,12 @@
     "static/media/fdm_logo.gif": "/brandon_atkinson_cv/static/media/fdm_logo.f8258fb2e677c7d90cf6.gif",
     "static/media/download.png": "/brandon_atkinson_cv/static/media/download.06c3b2a21c01d84ea0be.png",
     "index.html": "/brandon_atkinson_cv/index.html",
-    "main.d387a738.css.map": "/brandon_atkinson_cv/static/css/main.d387a738.css.map",
-    "main.ec5a0ce1.js.map": "/brandon_atkinson_cv/static/js/main.ec5a0ce1.js.map",
+    "main.b661e765.css.map": "/brandon_atkinson_cv/static/css/main.b661e765.css.map",
+    "main.690244c8.js.map": "/brandon_atkinson_cv/static/js/main.690244c8.js.map",
     "787.582371fd.chunk.js.map": "/brandon_atkinson_cv/static/js/787.582371fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d387a738.css",
-    "static/js/main.ec5a0ce1.js"
+    "static/css/main.b661e765.css",
+    "static/js/main.690244c8.js"
   ]
 }
